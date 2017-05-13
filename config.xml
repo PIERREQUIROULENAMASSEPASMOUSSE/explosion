@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="https://phonegap.com/ns/1.0">
+	<name>FACEBOOK</name>
+	<description>
+		GROS CACA
+	</description>
+
+	<author email="louisfelix.berthiaume@gmail.com" href="https://jeanguylalicorne.wordpress.com">
+	   COUCOU
+	</author>
+
+	<preference name="phonegap-version" value="cli-6.0.0" />
+  <plugin name="org.apache.cordova.vibration" spec="0.3.0" source="pgb" />
+</widget>
