@@ -1,0 +1,21 @@
+<html>
+<p id="message">IL RESTE 10 SECONDES AVANT L'AUTODESTRUCTION DE VOTRE APPAREIL</p>
+<script>
+var timeleft = 10;
+window.setInterval(function robert() {
+if (timeleft > 0) {
+timeleft--;
+document.getElementById('message').innerHTML = 'IL RESTE ' + timeleft + ' SECONDES AVANT L\'AUTODESTRUCTION DE VOTRE APPAREIL.'
+}
+if (timeleft === 2) {
+  navigator.vibrate(time)
+}
+}, 1000);
+
+</script>
+<style>
+html {
+  background-color: red;
+}
+</style>
+</html>
